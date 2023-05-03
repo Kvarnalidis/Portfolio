@@ -1,0 +1,32 @@
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap ;
+    
+}
+
+.card{
+    background-color:white;
+    width: 422px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+}
+.card-title{
+    text-align: center;
+    color: black;
+}
+.card-item{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.iimg{
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down ;
+
+}

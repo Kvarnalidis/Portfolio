@@ -1,0 +1,29 @@
+.nav-container{
+width: fit-content;
+height: 6rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  height: 5rem;
+  align-items: center;
+  background-color: black;
+  border-radius: 15px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1030;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: max(min(1.5vw, 1.5em), 1rem);
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+}
+.link:hover{
+  box-shadow: inset 100vh 0 0 0 #54b3d6;
+  color: white;
+}
