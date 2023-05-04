@@ -11,7 +11,7 @@ const Projects=forwardRef((props,Projects) =>{
     const chessdesc="This is my try to code a chess game with an AI opponent 'right now it's just with yourself:('.It's made with Python and Pygame.You can try it by downloading the source code and installing Pygame."
     const chessgit="https://github.com/Kvarnalidis/chessGame"
     const recsysdesc="This in a tourist attractions Recommendation App it is built with Django as a framework Python for back end and Sqllite database,Html and Css for it's front end.The gem behind it is an Euclidean Distance algorithm which based on your inputs it recommends the best choice for you."
-    const recsysgit="https://github.com/Kvarnalidis/chessGame"
+    const recsysgit="https://github.com/Kvarnalidis/Recommendation_System"
   return (
     <div className='projects-container'ref={Projects}>
         <ProjectCard desc={portfoliodesc} github={portfoliogit} img={portimg}/>

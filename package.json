@@ -1,7 +1,6 @@
 {
   "name": "newapp",
   "version": "0.1.0",
-  "homepage":"http://Kvarnalidis.github.io/Kvarnalidis.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
