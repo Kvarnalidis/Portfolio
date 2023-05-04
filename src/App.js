@@ -5,20 +5,22 @@ import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Footer from './components/Footer';
 import Personal from './components/Personal';
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
 import { useRef } from 'react';
 function App() {
-  const Skills=useRef(null)
-  const Projects=useRef(null)
+  const projects=useRef(null)
   const Contact=useRef(null)
+  const personal=useRef(null)
   return (
     <>
     <Router>
-      <Navbar AboutMe={AboutMe} Skills={Skills}Contact={Contact}/>
+      <Navbar AboutMe={AboutMe} personal={personal}Contact={Contact} projects={projects} />
       <Routes>
         <Route path='/' exact/>
       </Routes>
             <AboutMe ref={AboutMe} Contact={Contact}/>
-            <Personal ref={Skills}/>
+            <Personal ref={personal}/>
+            <Projects ref={projects}/>
             <Footer ref={Contact}/>
     </Router>     
     </>

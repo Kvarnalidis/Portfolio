@@ -1,6 +1,7 @@
 import React from 'react'
 import './Personal.css'
 import { forwardRef } from 'react'
+
 const Personal=forwardRef((props,ref)=> {
   return (
     <div ref={ref} className='skills-container'>

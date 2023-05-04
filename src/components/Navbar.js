@@ -2,7 +2,7 @@ import React,{useState,useEffect, forwardRef} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { useRef } from 'react';
-function Navbar({Home,AboutMe,Skills,Personal,Contact}){
+function Navbar({AboutMe,personal,Contact,projects}){
     return (
         <div className='nav-container'>
         <nav className='navbar'>
@@ -12,12 +12,12 @@ function Navbar({Home,AboutMe,Skills,Personal,Contact}){
                         </Link>
                     </div>
                     <div className='nav-item'>
-                        <Link className='link' onClick={()=>AboutMe.current.scrollIntoView({behavior:"smooth"})} >
-                        About Me.
+                        <Link className='link' onClick={()=>personal.current.scrollIntoView({behavior:"smooth"})} >
+                        Skills.
                         </Link>
                     </div>
                     <div className='nav-item'>
-                        <Link className='link' onClick={()=>AboutMe.current.scrollIntoView({behavior:"smooth"})} >
+                        <Link className='link' onClick={()=>projects.current.scrollIntoView({behavior:"smooth"})} >
                         Projects.
                         </Link>
                     </div>

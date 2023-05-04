@@ -1,0 +1,40 @@
+.projectCard-container{
+    display: flex;
+    flex-flow: row;
+    flex-wrap:  wrap;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    width: 100%;
+    margin:20px;
+}
+.projectImage{
+    max-width: 400px;
+    -webkit-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+}
+.prgImg{
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+.project-description{
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+
+
+}
+.description{
+    text-align: center;
+
+}
+.project-stack{
+    display: flex;
+    justify-content: space-evenly;
+
+}
