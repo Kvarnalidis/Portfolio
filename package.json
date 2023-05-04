@@ -1,6 +1,7 @@
 {
   "name": "newapp",
   "version": "0.1.0",
+  "homepage":"http://Kvarnalidis.github.io/Kvarnalidis.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -16,8 +17,7 @@
     "react-mailto-link": "^1.0.3",
     "react-router-dom": "^6.11.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage":"http://Kvarnalidis.github.io/Kvarnalidis.github.io"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
