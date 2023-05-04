@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dbbada6.css",
+    "main.js": "/static/js/main.03e655f3.js",
+    "static/media/lap.jpg": "/static/media/lap.c1ebab3dcce4316acf36.jpg",
+    "static/media/water.png": "/static/media/water.0db738b34bcf1fe6133c.png",
+    "static/media/portfolio.png": "/static/media/portfolio.18b04abd57006f21a64f.png",
+    "static/media/Resume.pdf": "/static/media/Resume.b78c1bf3744c39225d3b.pdf",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python.png": "/static/media/python.82efb64f8698a267f8bf.png",
+    "static/media/vs.png": "/static/media/vs.e66400756ccbdbfc0b31.png",
+    "static/media/java.png": "/static/media/java.d0be53e356542c3f88d2.png",
+    "static/media/linux-logo.png": "/static/media/linux-logo.1d62b47ffe5be25e328d.png",
+    "static/media/css.png": "/static/media/css.cd13bf0a8423210549cb.png",
+    "static/media/post.png": "/static/media/post.c00be11f713ae744786b.png",
+    "static/media/chess.png": "/static/media/chess.e170e50ecfd4e09134b3.png",
+    "static/media/recsys.png": "/static/media/recsys.09963e10608f40d595a8.png",
+    "static/media/postgre.png": "/static/media/postgre.76380de4a515e524dac3.png",
+    "static/media/c.png": "/static/media/c.bbbbbabc8c191bfb99bf.png",
+    "static/media/aws.png": "/static/media/aws.3f5c56195cdabb10f634.png",
+    "static/media/sql.png": "/static/media/sql.c8b636b9fdc4b0fc0b6d.png",
+    "static/media/django.png": "/static/media/django.edbbc4cf97cc75cef2b3.png",
+    "static/media/html.png": "/static/media/html.d50fc7a86b6f3764610b.png",
+    "static/media/js.png": "/static/media/js.266bd9fb2663dcc057b4.png",
+    "index.html": "/index.html",
+    "main.9dbbada6.css.map": "/static/css/main.9dbbada6.css.map",
+    "main.03e655f3.js.map": "/static/js/main.03e655f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dbbada6.css",
+    "static/js/main.03e655f3.js"
+  ]
+}
