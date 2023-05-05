@@ -18,11 +18,12 @@ const AboutMe=forwardRef(({Contact},AboutMe) =>{
               I am an Full-Stack developer with a passion to learn.My biggest advantage is my ability to teach my self new skills.
               I love coding and basketball and right now i am try to develop a stats app for the  Euroleague and the NBA.
             </p>
+            <div className='buttons'>
             <a href={resume} download="Resume.pdf" target="_blank" rel="noreferrer"><button className="button">Resume</button></a>
             <button className="button" onClick={()=>Contact.current.scrollIntoView({behavior:"smooth"})} ><span>Contact Me </span></button>
+            </div>
         </div>
         <div className='ilu'>
-          <img className='imgss' src={require('./img/lap.jpg')} alt=''></img>
         </div>
     </div>
   )

@@ -4,17 +4,14 @@
     flex-wrap:  wrap;
     justify-content: space-evenly;
     border-radius: 15px;
-    -webkit-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
-    box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
     width: 100%;
     margin:20px;
-}
-.projectImage{
-    max-width: 400px;
     -webkit-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
-    box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: 15px 13px 16px -1px rgba(0,0,0,0.2);
+}
+.projectImage{
+    max-width: 40%;
 }
 .prgImg{
     max-width: 100%;

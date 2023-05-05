@@ -8,7 +8,7 @@ function Navbar({AboutMe,personal,Contact,projects}){
         <nav className='navbar'>
                     <div className='nav-item'>
                         <Link className='link' onClick={()=>AboutMe.current.scrollIntoView({behavior:"smooth"})} >
-                        Konstantinos Varnalidis.
+                        Home.
                         </Link>
                     </div>
                     <div className='nav-item'>
