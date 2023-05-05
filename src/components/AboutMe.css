@@ -2,8 +2,10 @@
     display:flex;
     flex-wrap:row wrap;
     width: 100%;
+    justify-content: center;
 }
 .text{
+    max-width: 800px;
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
@@ -11,6 +13,7 @@
     font-size: x-large;
     font-family: 'Gill Sans';
     font-weight: 500;
+    justify-content: center;
 }
 
 .name{
